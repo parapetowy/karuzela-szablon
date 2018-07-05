@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+#slajd-item {
+  width: 100%;
+  /* full width */
+  height: 50vh;
+  min-height: 550px;
+  /* height of carousel */
+  margin-right: 10px;
+  background-size: cover;
+}
+
+#slajd-item .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#slajd-item p {
+  font-size: 1.5em;
+  display: inline-block;
+  color: #42525b;
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  line-height: 26px;
+  text-indent: 30px;
+  padding: 10px;
+  background: #fe921f;
+}
+
+.progress-bar {
+  height: 20px;
+  width: 0;
+  background: #333;
+}
+
+.flickity-page-dots {
+  display: none;
+}
+
+.buttonReset {
+  position: absolute;
+  right: 50px;
+  top: 150px;
+  z-index: 1000;
+}
+/*# sourceMappingURL=style.css.map */

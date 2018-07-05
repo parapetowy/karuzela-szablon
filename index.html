@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link href="vendor/normalize.css" rel="stylesheet">
+		<link href="vendor/flickity.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<title>Karuzela</title>
+	</head>
+	<body>
+		<nav class="nav navbar-default navbar-inverse">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="#carousel-cell1">Flaga</a></li>
+						<li><a href="#carousel-cell2">Góry</a></li>
+						<li><a href="#carousel-cell3">Wierzowiec</a></li>
+						<li><a href="#carousel-cell4">Auto</a></li>
+						<li><a href="#carousel-cell5">Koncert</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<h1>Karuleza</h1>
+		
+		
+		<button class="button btn btn-warning btn-sm buttonReset">Reset</button>
+		
+		<div class="main-carousel" id="tutaj">
+			
+		</div>
+		
+		<div class="progress-bar"></div>
+		
+		<script id="slajd-item" type="x-tmpl-mustache">
+			<img src="{{image}}" />
+			<div class="container">
+						<p> {{title}} </p>
+						{{{description}}}
+			</div>
+			
+		
+		</script>
+		
+		
+		<!-- Optional JavaScript -->
+		<script>
+		var slajdData = [
+			{
+				title: 'Flaga',
+				description: "<p>Lorem ipsum.</p> <p>Dolor sit.</p>",
+				image: "images/1.jpg"
+			},
+			{
+				title: 'Volleyball',
+				description: "<p>Lorem ipsum.</p> <p>Dolor sit.</p>",
+				image: "images/2.jpeg"
+			},
+			{
+				title: 'Basketball',
+				description: "<p>Lorem ipsum.</p> <p>Dolor sit.</p>",
+				image: "images/3.jpeg"
+			},
+			{
+				title: 'Basketball',
+				description: "<p>Lorem ipsum.</p> <p>Dolor sit.</p>",
+				image: "images/4.jpeg"
+			},
+			{
+				title: 'Basketball',
+				description: "<p>Lorem ipsum.</p> <p>Dolor sit.</p>",
+				image: "images/5.jpeg"
+			}
+		];
+		</script>
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="vendor/flickity.pkgd.min.js"></script>
+		<script src="vendor/hash.js"></script>
+		<script src="vendor/mustache/mustache.js"></script>
+		<script src="js/script.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	</body>
+</html>

@@ -1,15 +1,15 @@
 "use strict";
 
 
-var templateItem = document.getElementById('slajd-template').innerHTML;
+var templateItem = document.getElementById('slaid-template').innerHTML;
 
 Mustache.parse(templateItem);
 
 var listItems = '';
 
-for (var i = 0; i < slajdData.length; i++) {
-    console.log(slajdData);
-    listItems += Mustache.render(templateItem, slajdData[i]);
+for (var i = 0; i < slaidData.length; i++) {
+    console.log(slaidData);
+    listItems += Mustache.render(templateItem, slaidData[i]);
 }
 
 

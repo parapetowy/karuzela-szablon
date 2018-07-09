@@ -37,7 +37,7 @@
 		<h1>Karuleza- szablon HTML</h1>
 		
 		
-		<button class="button btn btn-warning btn-sm buttonreset">Reset</button>
+		
 		
 		<div class="main-carousel" id="tutaj">
 			
@@ -45,18 +45,22 @@
 		
 		<div class="progress-bar"></div>
 		
-		<script id="slajd-template" type="x-tmpl-mustache">
-			<div class="container" id={{id}}>
-									<img src="{{image}}" />
-										<h2> {{title}} </h2>
-										{{{description}}}
+		<script id="slaid-template" type="x-tmpl-mustache">
+			<div class="container" id={{id}} >
+				<img  src="{{image}}" />
+					<div class="textfield">
+						<h2> {{title}} </h2>
+						<div class="description">
+							{{{description}}}	
+						</div>
+						<button class="button btn btn-warning btn-sm buttonreset">Reset</button>
+					</div>
 			</div>
 		</script>
-		
-		
+				
 		<!-- Optional JavaScript -->
 		<script>
-		var slajdData = [
+		var slaidData = [
 			{
 				title: 'Flaga',
 				description: "<h4>Lorem ipsum.</h4> <p>Dolor sit.<p> ",

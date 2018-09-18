@@ -12,8 +12,9 @@ for (var i = 0; i < slaidData.length; i++) {
     listItems += Mustache.render(templateItem, slaidData[i]);
 }
 
+var here = document.getElementById('here');
 
-tutaj.insertAdjacentHTML('beforeend', listItems);
+here.insertAdjacentHTML('beforeend', listItems);
 
 var flkty = new Flickity('.main-carousel', {
     // options

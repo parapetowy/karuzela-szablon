@@ -30,7 +30,7 @@ flkty.on('scroll', function(progress) {
     progressBar.style.width = progress * 100 + '%';
 });
 
-var buttonReset = document.querySelector('.buttonreset');
+var buttonReset = document.querySelector('.button-reset');
 
 buttonReset.addEventListener('click', function(event) {
     flkty.select(0);

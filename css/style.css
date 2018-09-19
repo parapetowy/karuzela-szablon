@@ -61,10 +61,10 @@
   display: none;
 }
 
-.buttonreset {
+.button-reset {
   position: absolute;
   right: 5%;
-  top: 5%;
+  top: 15%;
   z-index: 1000;
 }
 /*# sourceMappingURL=style.css.map */
